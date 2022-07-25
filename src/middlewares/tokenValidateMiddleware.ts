@@ -18,4 +18,3 @@ export default function validateToken(req: Request, res: Response, next: NextFun
         throw unauthorizedError(message);
     }
 }
-
